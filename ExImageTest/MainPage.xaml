@@ -1,0 +1,13 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Noise="clr-namespace:Noise;assembly=Noise" x:Class="HomeAdvSetting.MainPage">
+    <Grid Background="LightGray">
+        <Grid Background="Red" Width="1000" Height="100">
+            <Noise:Noise Source="noise.png" />
+        </Grid>
+        <Grid Background="Green" Width="100" Height="1000">
+            <Noise:Noise Source="noise.png" />
+        </Grid>
+    </Grid>
+</UserControl>
